@@ -108,40 +108,57 @@ a {
     width: 100%;
     height: 200px;
     overflow: hidden;
+    position: relative;
 }
 
-#slider>div {
+#moveSlider {
     width: auto;
     height: 200px;
     position: relative;
 }
 
-#slider>div>div {
+#moveSlider>div {
     width: 100%;
     height: 200px;
     position: absolute;
 }
 
-#slider>div>div:nth-child(1){
+#moveSlider>div:nth-child(1){
     left: 0%;
 }
-#slider>div>div:nth-child(2){
+#moveSlider>div:nth-child(2){
     left: 100%;
 }
-#slider>div>div:nth-child(3){
+#moveSlider>div:nth-child(3){
     left: 200%;
 }
-#slider>div>div:nth-child(4){
+#moveSlider>div:nth-child(4){
     left: 300%;
 }
 
-#slider>div>div h1 {
+#moveSlider>div h1 {
     text-align: center;
     line-height: 0;
     font-size: 10em;
     color: white;
 }
 
+#buttonSlider {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -5px;
+    display: inline-block;
+    text-align: center;
+}
+
+#buttonSlider>a {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 9px;
+}
 
 
 
