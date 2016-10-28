@@ -7,8 +7,8 @@
     <!-- ### LINKS ### -->
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Signika" rel="stylesheet">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 
 
     <!-- ### LINKS : END ### -->
