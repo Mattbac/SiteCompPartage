@@ -1,32 +1,40 @@
 $(function(){
     
-    var i = 0;
-    
-    setInterval(function(){
-        switch(i % 4){
+    function move(param){
+        console.log(param);
+        switch(param % 4){
             case 0:
-                $("#slider>div").animate({
+                $("#moveSlider").animate({
                     left: "-100%"
                 }, 2000);
             break;
             case 1:
-                $("#slider>div").animate({
+                $("#moveSlider").animate({
                     left: "-200%"
                 }, 2000);
             break;
             case 2:
-                $("#slider>div").animate({
+                $("#moveSlider").animate({
                     left: "-300%"
                 }, 2000);
             break;
             case 3:
-                $("#slider>div").animate({
+                $("#moveSlider").animate({
                     left: "0"
                 }, 2000);
             break;
-        }
-        
+        }    
+    }
+    
+    var i = 0;
+    
+    setInterval(function(){
+        move(i);
         i++;
-        
     },5000);
+    
+    $("#buttonSlider>a").click(function(){
+        i = (this.id);
+        move(i);
+    })
 })
