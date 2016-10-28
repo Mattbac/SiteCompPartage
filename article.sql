@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Ven 28 Octobre 2016 à 10:40
+-- Généré le :  Ven 28 Octobre 2016 à 11:40
 -- Version du serveur :  10.1.13-MariaDB
 -- Version de PHP :  5.6.23
 
@@ -28,6 +28,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `article` (
   `id` int(11) NOT NULL,
+  `titre` varchar(255) NOT NULL,
+  `contenu` varchar(255) NOT NULL,
   `author` varchar(255) NOT NULL,
   `date` date NOT NULL,
   `image` varchar(255) NOT NULL,
