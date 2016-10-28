@@ -19,7 +19,6 @@ a {
   text-decoration: none;
   color:inherit;
 }
-
 /* ### ANIMATIONS ### */
 
 @keyframes navbtn {
@@ -30,7 +29,6 @@ a {
         color:#f26c4f;
     }
 }
-
 /* ### HEADER ### */
 
 #banner {
@@ -89,3 +87,85 @@ a {
     animation-name: navbtn;
     animation-duration: 0.5s;
 }
+=======
+  height: 100px;
+  background:white;
+}
+
+#navbar ul li {
+  display: inline-block;
+  line-height: 100px;
+  width:calc(100%/5);
+}
+
+#navbar ul li a {
+
+}
+
+/* ### SLIDER ### */
+
+#slider {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+#slider>div {
+    width: auto;
+    height: 200px;
+    position: relative;
+}
+
+#slider>div>div {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}
+
+#slider>div>div:nth-child(1){
+    left: 0%;
+}
+#slider>div>div:nth-child(2){
+    left: 100%;
+}
+#slider>div>div:nth-child(3){
+    left: 200%;
+}
+#slider>div>div:nth-child(4){
+    left: 300%;
+}
+
+#slider>div>div h1 {
+    text-align: center;
+    line-height: 0;
+    font-size: 10em;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> master
